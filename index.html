@@ -2,26 +2,42 @@
 <html>
 <head>
     <title>Natural Breakpoints</title>
-    <link rel="stylesheet" type="text/css" media="(max-width: 600px)" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="(min-width: 601px)" href="css/style600.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" media="(max-width: 600px)" href="css/layout600.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 601px)" href="css/layout601.css">
 </head>
 
 <body>
 <div id="container">
-   <div id="nav">Brand</div>
 
-   <div class="content">
-        <article>
-        <header>
-            <h1>Article Title</h1>
-            <h2>by David Conner on 2015-03-22</h2>
-        </header>
-        <p>Here is the sample text. I will use this to help determine some line length issues. If the line gets too long or too short, I will need to adjust my font sizes and column widths. I need to make sure I have enough text here so that I will have plenty of length to examine.</p>
-   </div>
+    <div class="row">
+        <div class="nav">Brand</div>
+    </div>
 
-   <div class="content ads">Advertisements</div>
+    <div class="row">
+        <div class="content">
+            <article>
+                <header>
+                    <h1>Article Title</h1>
+                    <h2>by David Conner on 2015-03-22</h2>
+                </header>
+            
+                <p>Here is the sample text. I will use this to help determine some line length issues. If the line gets too long or too short, I will need to adjust my font sizes and column widths. I need to make sure I have enough text here so that I will have plenty of length to examine.</p>
+            </article>
+        </div>
 
-   <div id="footer"><a href="#">Contact</a></div>
+        <div class="ads">
+            <article>
+                <h1>Advertisements</h1>
+                <p>Here is something I desperately want to sel you! This is something you you should totally buy! Come and get it right here!</p>
+            </article>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="footer"><a href="#">Contact</a></div>
+    </div>
+
 </div>
 
 <!--Scripts-->

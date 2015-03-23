@@ -23,7 +23,7 @@ body {
 /*****
 NAV
 *****/
-#nav {
+.nav {
     /*Layout*/
     margin: 0px 0px;
     padding: 10px 10px;
@@ -54,13 +54,13 @@ article header h1 {
 
 article header h2 {
     /*Style*/
-    font-size: .8em;
-    border-bottom: thin solid black;
+    font-size: .6em;
+    border-bottom: thin solid red;
 }
 /*****
 FOOTER
 *****/
-#footer {
+.footer {
     /*Layout*/
     margin: 0 0;
     padding: 10px 10px;
@@ -70,7 +70,8 @@ FOOTER
     color: #d3d3d3;
     text-align: center;
 }
- #footer a {
+
+.footer a {
      color: #d3d3d3;
      text-decoration: none;
  }

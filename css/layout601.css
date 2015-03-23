@@ -1,0 +1,34 @@
+/*****
+
+Created by: David M. Conner
+Date      : 2015-03-22
+Summary   : This is a separate stylesheet for a mid-size media query.
+
+*****/
+@import url("style.css");
+
+.row {
+    width: 100%;
+}
+
+.nav {
+    clear: both;
+    width: 100%;
+}
+
+.content {
+    display: block;
+    float: left;
+    max-width: 80%;
+}
+
+.ads {
+    display: block;
+    float: left;
+    min-width: 20%;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+}
